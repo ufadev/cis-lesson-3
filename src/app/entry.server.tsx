@@ -91,7 +91,7 @@ function handleBotRequest(
 
 function handleBrowserRequest(
   request: Request,
-  responseStatusCode: number,
+  responseStatusCode: string,
   responseHeaders: Headers,
   remixContext: EntryContext
 ) {
